@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="script.js"></script>
+	<button type="submit"  onClick="refreshPage()"><img src="img/refresh.png"/>Обновить</button>
+</head>
+<body>
+<div class="cover"></div>
+<div class="container">
+    <div class="logo">2048</div>
+    <div class="scoreBar">
+        <label style="position: relative; top:-13px;">Счёт:</label>
+        <label id="score"> 0</label>
+		<p style="position: relative; top:-30px; left: 10px"> Соединяй числа, чтобы получить 2048!</p>
+        <div id="addScore"></div>
+    </div>
+    <div id="stage"></div>
+    <!--<div id="gameOver hide">-->
+        <!--<div class="overText">GameOver!</div>-->
+    <!--</div>-->
+</div>
+</body>
+</html>
